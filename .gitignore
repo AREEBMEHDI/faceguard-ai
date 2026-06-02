@@ -1,0 +1,47 @@
+# ── Environment & Secrets ──────────────────────────────────────────────────
+.env
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── ML Models & Large Binaries ─────────────────────────────────────────────
+*.pt
+*.onnx
+*.pkl
+*.h5
+.insightface/
+
+# ── Face Data (never commit real face images) ──────────────────────────────
+known_faces/**/*.jpg
+known_faces/**/*.jpeg
+known_faces/**/*.png
+known_faces/**/*.webp
+
+# ── Database ───────────────────────────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ── IDE & OS ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+*.log
+logs/

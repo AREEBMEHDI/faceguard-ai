@@ -1,0 +1,21 @@
+# Vision & face recognition
+opencv-python-headless==4.13.0.92
+insightface==0.7.3
+faiss-cpu==1.13.2
+numpy==2.2.6
+
+# Object detection (YOLOv8)
+ultralytics==8.4.48
+torch==2.11.0
+
+# AI agent
+langchain-openai
+langchain-core
+
+# Database
+sqlalchemy==2.0.46
+psycopg2-binary==2.9.11
+
+# Utilities
+python-dotenv==1.2.2
+requests==2.32.5
