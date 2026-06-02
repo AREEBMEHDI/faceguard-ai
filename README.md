@@ -1,4 +1,4 @@
-# AI Face Alert System
+# FaceGuard AI
 
 A real-time AI-powered face recognition and security alert system that monitors CCTV/IP camera feeds, identifies known individuals, and dispatches instant Telegram notifications with face-crop photos when a detection triggers an alert.
 
@@ -125,8 +125,8 @@ ai-face-alert-system/
 ### 1. Clone & configure
 
 ```bash
-git clone https://github.com/your-username/ai-face-alert-system.git
-cd ai-face-alert-system
+git clone https://github.com/AREEBMEHDI/faceguard-ai.git
+cd faceguard-ai
 
 cp .env.example .env
 # Edit .env and fill in your RTSP_URL, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
